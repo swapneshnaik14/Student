@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Create The Application
+| Create The Application for use 
 |--------------------------------------------------------------------------
 |
 | The first thing we will do is create a new Laravel application instance
@@ -12,7 +12,7 @@
 */
 
 $app = new Illuminate\Foundation\Application(
-    realpath(__DIR__.'/../')
+    realpath(__DIR__.'/../')//set the path
 );
 
 /*
